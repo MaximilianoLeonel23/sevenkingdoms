@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siete Reinos Vino</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav">
+        <h4><a href="#header">Seven Kingdoms</a></h4>
+        <ul class="nav_links">
+          <li class="nav_link"><a href="#section--1">About</a></li>
+          <li class="nav_link"><a href="#section--2">Catalog</a></li>
+          <li class="nav_link"><a href="#section--3">Experiences</a></li>
+          <li class="nav_link"><a href="#section--4">Contact</a></li>
+        </ul>
+        <div class="hamburguer_Openmenu">
+          <div class="hamburguer_Openmenu--line"></div>
+          <div class="hamburguer_Openmenu--line"></div>
+          <div class="hamburguer_Openmenu--line"></div>
+        </div>
+      </nav>
+      
+      <div class="pop_up--hidden">
+        <div class="overlay_pop_up"></div>
+
+        <!-- pantalla negra fondo -->
+        <div class="pop_up--background"></div>
+        <h3>Buy some wine</h3>
+        <form>
+          <p>Name <input type="text"></p>
+          <p>Last Name <input type="text"></p>
+          <p>Email <input type="email"></p>
+          <button>To the shop</button>
+        </form>
+      </div>
+      <div class="header_container">
+        <!-- <div src="#" class="header_img" alt=""></div> -->
+        <div class="header_description">
+          <h1 class="header_description--title">Seven Kingdoms</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
+            voluptas animi harum vel culpa deleniti! Odit exercitationem, cum
+            beatae, omnis itaque, sequi ullam a aperiam praesentium neque dolore
+            numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Totam ex ab tenetur corporis et exercitationem? Inventore
+            mollitia temporibus iure laudantium? Earum nihil reiciendis
+            temporibus in rerum vero culpa quasi iure?
+          </p>
+          <button class="header_description--btn">Buy</button>
+        </div>
+      </div>
+      <img src="/img/westeros.JPG" alt="mapaGot" class="background_img--map">
+      <div class="overlay_background"></div>
+      <img src="/Mockups/silueta_vino.PNG" alt="" class="background_silueta">
+    </header>
+    
+    <section class="section" id="section--1">
+      <div class="section_about_container">
+        <div class="about_description">
+          <h3>About the most famous wine in Seven Kingdoms</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+            dolorem nobis atque, quos non quam accusamus neque. Nam eius quas,
+            quos rerum modi dolores quo fugiat, ab, aliquid possimus
+            consequatur? Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Sequi quisquam ipsam est ut error ratione odio veritatis
+            suscipit tempora fugit. Alias temporibus sint perferendis.
+            Accusantium consequuntur consectetur modi quos velit?
+          </p>
+        </div>
+        <img src="/img/Cercei_drink.JPG" class="about_img" alt="about_img">
+      </div>
+    </section>
+    
+    <section class="section" id="section--2">
+      <!-- cambiar background-image arriba -->
+      <div class="section_catalogo_container">
+        <h3>Catalog</h3>
+        <div class="catalogo_container">
+          <div class="catalogo_slider">
+            <img src="\img\Vinos\dornewine.PNG" alt="" class="catalogo_img--wine">
+            <div class="catalogo_card--wine">
+              <h4 class="catalogo_card--lema">The Unbrokens</h4>
+              <ul class="catalogo_card--lista">
+                <li class="catalogo_card--region">Región: Dorne</li>
+                <li class="catalogo_card--color">Color: Scarlet</li>
+                <li class="catalogo_card--type">Type: Reddish</li>
+                <li class="catalogo_card--cost">Cost: Revenge</li>
+              </ul>
+              <p class="catalogo_card--description">Description: lorem ipsum defji deidiefd hehefuhefh lorem ipsum defji deidiefd hehefuhefh Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit adipisci rem lorem ipsum defji deidiefd hehefuhefh Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit adipisci rem lorem ipsum defji deidiefd hehefuhefh Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit adipisci rem lorem ipsum defji deidiefd hehefuhefh Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit adipisci rem lorem ipsum defji deidiefd hehefuhefh Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit adipisci rem</p>
+            </div>
+           
+          </div>
+          <div class="catalogo_tab_menu">
+            <button class="tab_btn tab_btn--active" data-tab="0">Dorne</button>
+            <button class="tab_btn" data-tab="1">Kingslanding</button>
+            <button class="tab_btn" data-tab="2">Highgarden</button>
+            <button class="tab_btn" data-tab="3">Casterly Rock</button>
+          </div>
+        </div>
+      </div>
+       
+      </div>
+      
+    </section>
+   
+    <section class="section" id="section--3">
+      <div class="section_experiences_container">
+        <h3>Experiences</h3>
+        <div class="experiences_container">
+          <article class="slider_description--card">
+            <img src="/img/Perfiles/tyrionprofile.PNG" class="slider_description--img">
+            
+            <h5>Tyrion Lannister</h5>
+            <p>The Imp</p>
+            <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quaerat, accusantium fuga aut hic laudantium eligendi deleniti doloribus, perspiciatis repellat in, totam itaque quas quos cupiditate architecto quis nisi praesentium?
+              
+            </blockquote>
+          </article>
+          <article class="slider_description--card">
+            <img src="/img/Perfiles/daenerysprofile.PNG" class="slider_description--img">
+            
+            <h5>Daenerys Targaryen</h5>
+            <p>Khaleesi</p>
+            <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quaerat, accusantium fuga aut hic laudantium eligendi deleniti doloribus, perspiciatis repellat in, totam itaque quas quos cupiditate architecto quis nisi praesentium?
+              
+          </article>
+          <article class="slider_description--card">
+            <img src="/img/Perfiles/robertbaratheonprofile.PNG" class="slider_description--img">
+            
+            <h5>Robert Baratheon</h5>
+            <p>The King</p>
+            <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quaerat, accusantium fuga aut hic laudantium eligendi deleniti doloribus, perspiciatis repellat in, totam itaque quas quos cupiditate architecto quis nisi praesentium?
+              
+            </blockquote>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="section--4">
+      <div class="section_contact_container">
+        
+        <h3>Contact</h3>
+        <div class="contact_container">
+          <form action="" class="contact_form">
+            <p>Name</p>
+            <input type="text" required placeholder="Robert">
+            <p>Lastname</p>
+            <input type="text" required placeholder="Baratheon">
+            <p>Email</p>
+            <input type="email" required placeholder="robertheking@kindgdomail.wes">
+            <p>Mensaje</p>
+            <textarea maxlenght="100" placeholder="I need more wine, Lannister bitch"></textarea>
+            <input type="submit">
+          </form>
+          <div class="contact_img">
+          <img src="/img/petyr_spider.png" >
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="modal hidden">
+      <button class="btn--close-modal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="32" fill="currentColor"><path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z"></path><path d="M11.414 10l2.829 2.828a1 1 0 0 1-1.415 1.415L10 11.414l-2.828 2.829a1 1 0 1 1-1.415-1.415L8.586 10 5.757 7.172a1 1 0 0 1 1.415-1.415L10 8.586l2.828-2.829a1 1 0 0 1 1.415 1.415L11.414 10z"></path></svg></button>
+      <h2 class="modal_header"> Are you new? ¡Buy a bottle and get two!
+      </h2>
+      <form class="modal_form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <footer class="footer">
+      <nav class="footer_nav">
+        <ul>
+          <li><a href="#"><span class="footer_icon whatsapp_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="30" fill="currentColor"><path d="M9.516.012C4.206.262.017 4.652.033 9.929a9.798 9.798 0 0 0 1.085 4.465L.06 19.495a.387.387 0 0 0 .47.453l5.034-1.184a9.981 9.981 0 0 0 4.284 1.032c5.427.083 9.951-4.195 10.12-9.58C20.15 4.441 15.351-.265 9.516.011zm6.007 15.367a7.784 7.784 0 0 1-5.52 2.27 7.77 7.77 0 0 1-3.474-.808l-.701-.347-3.087.726.65-3.131-.346-.672A7.62 7.62 0 0 1 2.197 9.9c0-2.07.812-4.017 2.286-5.48a7.85 7.85 0 0 1 5.52-2.271c2.086 0 4.046.806 5.52 2.27a7.672 7.672 0 0 1 2.287 5.48c0 2.052-.825 4.03-2.287 5.481z"></path><path d="M14.842 12.045l-1.931-.55a.723.723 0 0 0-.713.186l-.472.478a.707.707 0 0 1-.765.16c-.913-.367-2.835-2.063-3.326-2.912a.694.694 0 0 1 .056-.774l.412-.53a.71.71 0 0 0 .089-.726L7.38 5.553a.723.723 0 0 0-1.125-.256c-.539.453-1.179 1.14-1.256 1.903-.137 1.343.443 3.036 2.637 5.07 2.535 2.349 4.566 2.66 5.887 2.341.75-.18 1.35-.903 1.727-1.494a.713.713 0 0 0-.408-1.072z"></path></svg></span></a></li>
+          <li><a href="#"><span class="footer_icon twitter_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="30" fill="currentColor"><path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z"></path><path d="M15 6.947c-.368.16-.763.27-1.178.318.424-.25.748-.646.902-1.117-.398.231-.836.4-1.304.49A2.06 2.06 0 0 0 11.923 6c-1.133 0-2.051.905-2.051 2.02 0 .158.018.312.053.46a5.854 5.854 0 0 1-4.228-2.11 1.982 1.982 0 0 0-.278 1.015c0 .7.363 1.32.913 1.681a2.076 2.076 0 0 1-.93-.253v.025a2.03 2.03 0 0 0 1.646 1.98 2.108 2.108 0 0 1-.927.034 2.049 2.049 0 0 0 1.916 1.403 4.156 4.156 0 0 1-2.548.864c-.165 0-.328-.01-.489-.028A5.863 5.863 0 0 0 8.144 14c3.774 0 5.837-3.078 5.837-5.748l-.007-.262A4.063 4.063 0 0 0 15 6.947z"></path></svg></span></a></li> 
+          <li><a href="#"><span class="footer_icon facebook_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="30" fill="currentColor"><path d="M8.695 6.937v1.377H7.687v1.683h1.008V15h2.072V9.997h1.39s.131-.807.194-1.69h-1.576v-1.15c0-.173.226-.404.45-.404h1.128V5h-1.535C8.644 5 8.695 6.685 8.695 6.937z"></path><path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z"></path></svg></span></a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+
+</html>
